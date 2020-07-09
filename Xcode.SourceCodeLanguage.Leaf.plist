@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conformsToLanguageIdentifiers</key>
+	<array>
+		<string>Xcode.SourceCodeLanguage.Generic</string>
+	</array>
+	<key>fileDataTypeIdentifiers</key>
+	<array>
+		<string>codes.vapor.leaf</string>
+	</array>
+	<key>identifier</key>
+	<string>Xcode.SourceCodeLanguage.Leaf</string>
+	<key>isHidden</key>
+	<false/>
+	<key>languageName</key>
+	<string>Leaf</string>
+	<key>documentationAbbreviation</key>
+	<string>leaf</string>
+	<key>languageSpecification</key>
+	<string>xcode.lang.leaf</string>
+	<key>supportsIndentation</key>
+	<false/>
+	<key>allowWhitespaceTrimming</key>
+	<true/>
+	<key>requiresHardTabs</key>
+	<false/>
+</dict>
+</plist>
