@@ -10,8 +10,8 @@ This is very preliminary and has several issues:
 
 * Parameters are not actually lexed properly and invalid grammar will highlight (eg, anonymous expressions with parameters rather than a single expression)
 * No actual tag matching is done to verify that the end tag name the opening tag for bodied tags.
+* Variables and function calls inside a tag are colored the same - EG `#(variable)` & `#(function(variable))`, function and variable should be different colors (but aren't)
 * `:` and `#` delineating the start and end of a tag body do not highlight
-
 * Preliminary Leaf4 commenting style is highlighted (see [LeafKit PR #61](https://github.com/vapor/leaf-kit/pull/61)); this also includes parameters spanning multiple lines. These syntax features are **NOT** present in the current (LeafKit-1.0.0-rc.1.16) release.
 
 *this is **NOT** a stable language specification and is subject to breaking in the future.*
